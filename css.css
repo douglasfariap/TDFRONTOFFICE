@@ -408,7 +408,7 @@ a {
 
 footer {
     color: #fff;
-    background: #46398E;
+    background: #215972;
     padding: 20px 0px 50px 0px;
     width: 100%;
     margin-top: auto;
@@ -509,37 +509,37 @@ footer span {
 }
 
 .bg-ses1 {
-    background-color: #E6D3FE;
+    background-color: rgb(222, 235, 247);
     min-height: 250px;
     max-width: 285px;
 }
 
 .bg-ses2 {
-    background-color: #5405BD;
+    background-color: rgb(39, 93, 168);
     min-height: 250px;
     max-width: 285px;
 }
 
 .bg-ses3 {
-    background-color: #8360BA;
+    background-color: rgb(120, 171, 194);
     min-height: 250px;
     max-width: 285px;
 }
 
 .bg-ses4 {
-    background-color:#BF91FC;
+    background-color: rgb(169, 221, 237);
     min-height: 250px;
     max-width: 285px;
 }
 
 .bg-ses5 {
-    background-color: #6D3BAE;
+    background-color: rgb(90, 142, 174);
     min-height: 250px;
     max-width: 285px;
 }
 
 .bg-ses6 {
-    background-color: #BF91FC;
+    background-color: rgb(170, 214, 236);
     min-height: 250px;
     max-width: 285px;
 }
