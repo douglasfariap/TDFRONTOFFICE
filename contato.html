@@ -9,6 +9,16 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function validarPost(){
+          if(grecaptcha.getResponse() != "") return true;
+          
+          alert("Selecione a caixa 'não sou um robô'");
+          return false;
+
+      }
+    </script>
 
 
 
@@ -264,8 +274,10 @@ onselectstart="return false">
 
 
 
-            <form onclick="sendEmail()" method="POST" class="bg-light p-5  m-auto" style="border-radius: 20px;">
+            <form action="https://formsubmit.co/rodrigo.miranda@tdfrontoffice.com.br" onclick="sendEmail()" method="POST" onsubmit="return validarPost()" class="bg-light p-5  m-auto" style="border-radius: 20px;">
 
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato.html">
            
 
             <div class="form-row">
@@ -384,10 +396,14 @@ onselectstart="return false">
 
               </div>
 
+              <div class="g-recaptcha" data-sitekey="6LfuM3UlAAAAAM3ebBlVAthvrtfH3Qkxkmf6qCJw"></div>
+              
                       
 
             <button type="submit"  class="btn btn-primary">Enviar</button>
-
+                       
+            
+            
           </form>
 
 
@@ -523,7 +539,8 @@ onselectstart="return false">
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script> 
 
 
-
+    <!--Remover essa parte - google sheets -->
+    <!--
     <script>
 
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzP8uuFgdfcgT2Apc_Y5fqY7GZ9xx3i8Zmidzkq62o_7BDK2HZzls9cCxZ_zPQklQOa/exec'
@@ -560,7 +577,8 @@ onselectstart="return false">
 
      
 
-    </script>  
+    </script> 
+  --> 
 
     </body>
 
