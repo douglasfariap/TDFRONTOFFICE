@@ -20,6 +20,16 @@ body {
     display: none
 }
 
+.logo-arlequim {
+    display: inline-block;
+    height: 1.5em;
+    width: 4em;
+    background-image: url(img/Logo-Arlequim.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+  }
+
 @media only screen and (min-width: 480px) and (max-width: 1199px) {
     .cookies-snackbar {
         width: calc(100% - 150px)
