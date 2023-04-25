@@ -20,15 +20,28 @@ body {
     display: none
 }
 
-.logo-arlequim {
+.logo-plataforma {
     display: inline-block;
     height: 1.5em;
-    width: 4em;
+    width: 5.5em;
     background-image: url(img/Logo-Arlequim.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
+    background-position-y: 4px;
   }
+  .logo-arlequim {
+    display: inline-block;
+    height: 2.5em;
+    width: 5.5em;
+    background-image: url(img/Logo-Arlequim.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+    text-indent: -9999px;
+  }
+
+
 
 @media only screen and (min-width: 480px) and (max-width: 1199px) {
     .cookies-snackbar {
@@ -146,6 +159,15 @@ body {
     background-position: center center;
     margin-bottom: 0px;
     min-height: 380px;
+}
+
+.bgconecta{
+    margin-top: 56px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 0px;
+    min-height: 380px; 
 }
 
 .bg-header-pro {
@@ -1045,6 +1067,32 @@ nav {
     text-decoration: none; 
     text-decoration-color: none;
      color:#212529;
+}
+
+.beneficiosConecta img{
+    height: 100px;
+    width:100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.beneficiosConecta h2{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.beneficiosConecta li{
+    
+    list-style-type: square;
+    padding: 5px 15px 0px 5px;
+}
+.beneficiosConecta li::marker{
+    color: rgb(255,21,116);
+}
+
+.pessoasConecta img{
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin:10px;
 }
 
 @media (min-width: 1500px) {
