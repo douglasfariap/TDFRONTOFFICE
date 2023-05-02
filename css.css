@@ -175,8 +175,8 @@ body {
 .bgconecta{
     margin-top: 56px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain, cover;
+    background-position: top right;
     margin-bottom: 0px;
     min-height: 380px; 
 }
@@ -1100,14 +1100,13 @@ nav {
 }
 
 
-.testavh{
-    max-height:20px;
-    overflow: hidden;
+.avatar-cel img{
+    max-width: 80vw;
+    
 }
 
 .testavh img{
-    max-height: auto;
-    height:20px;
+    margin:0px  15px 10px;
 }
 
 
@@ -1155,5 +1154,8 @@ nav {
  
     .d-xxl-block {
       display: block !important;
+    }
+    .d-xxl-flex{
+        display: flex !important;
     }
 }
