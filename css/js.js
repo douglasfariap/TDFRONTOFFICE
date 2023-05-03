@@ -51,6 +51,10 @@ function bringMenu() {
   }
 }
 
+function showModal(){
+  document.getElementById('thanks').style.display='block';
+}
+
  /* if (document.body.scroll()) {
     document.getElementById("menu-index").style.display = "block";
   }*/
