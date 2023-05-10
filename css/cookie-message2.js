@@ -14,7 +14,7 @@
     
       function saveCookie() {
         const sixMonths = 182 * 24 * 60 * 60;
-        document.cookie = `candidate_accept_cookies_guest=true; max-age=${sixMonths}; path=/; domain=.laporteservice.com.br`;
+        document.cookie = `candidate_accept_cookies_guest=true; max-age=${sixMonths}; path=/; domain=.tdfrontoffice.com.br`;
         $('.cookies-snackbar').hide();
       }
     
