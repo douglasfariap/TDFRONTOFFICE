@@ -40,6 +40,16 @@ body {
     background-position-y: 12px;
     text-indent: -9999px;
   }
+  .logo-mapzer {
+    display: inline-block;
+    height: 3em;
+    width: 5.5em;
+    background-image: url(img/logo-mapzer2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 25px;
+    text-indent: -9999px;
+  }
   .logo-talkdesk {
     display: inline-block;
     height: 2em;
