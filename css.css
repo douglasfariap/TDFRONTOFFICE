@@ -568,6 +568,11 @@ footer span {
 .bg-azul-escuro {
     background-color: rgb(33, 83, 113);
 }
+.bg-pilares {
+    background-color: rgb(222, 235, 247);
+    min-height: 150px;
+    
+}
 
 .bg-ses1 {
     background-color: rgb(222, 235, 247);
